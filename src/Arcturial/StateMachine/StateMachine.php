@@ -261,7 +261,8 @@ abstract class StateMachine
 
         return $this->getCurrentState();
     }
-    
+
+    /** @return ContextLocator */
     public function getContextLocator()
     {
         return $this->contextLocator;
